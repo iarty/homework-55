@@ -1,10 +1,8 @@
-import React, { Fragment } from 'react'
-const classes = ['Salad', 'Cheese', 'Meat', 'Bacon']
+import React from 'react'
+const classes = {'Салат':'Salad','Сыр':'Cheese', 'Мясная котлета':'Meat', 'Бекон':'Bacon'};
 
-export default () => {
+export default ({ingredients}) => {
   return (
-    <Fragment>
-      {classes.map((item, i) => <div key={i} className={item}></div>)}
-    </Fragment>
+    <div className={classes[ingredients]}></div>
   )
 }
