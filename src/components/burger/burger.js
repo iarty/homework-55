@@ -25,7 +25,7 @@ export default ({ name, pickedIngredients, burgerParams }) => {
         <div className="BreadBottom"></div>
       </div>
       <div className="d-flex flex-column align-items-center mt-3">
-        <span>Цена: {20 + price} $</span>
+        <span>Цена: {20 + price} сом</span>
         <span>Вес: {30 + weight} гр</span>
       </div>
     </div>

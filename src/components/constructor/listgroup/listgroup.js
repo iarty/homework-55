@@ -13,9 +13,9 @@ const ListGroupPage = ({ ingredients, hover, mouseEnter, mouseLeave, pickIngredi
           return (
             <MDBListGroupItem key={i} {...active} href="#" onClick={() => pickIngredients(i)}>
               <div className="d-flex">
-                <div className="col-6 text-right">
+                <div className="col-7">
                   <h5>{item.name}</h5>
-                  <p>{item.weight} грамм ({item.price} $)</p>
+                  <p>{item.weight} грамм ({item.price} сом)</p>
                 </div>
                 <div className="col-6 align-self-center">
                   <img src={item.image} alt="ingredients" className="w-100" />

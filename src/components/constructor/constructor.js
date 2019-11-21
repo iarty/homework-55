@@ -1,5 +1,5 @@
 import React from 'react';
-import IngredientsGroup from '../listgroup/listgroup'
+import IngredientsGroup from './listgroup/listgroup'
 
 export default ({ ingredients, hover, mouseEnter, mouseLeave, burgerName, pickIngredients}) => {
   return (
